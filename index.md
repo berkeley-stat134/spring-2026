@@ -1,5 +1,5 @@
 ---
-title: 'Stat 134: Concepts of Probability"
+title: 'Stat 134: Concepts of Probability'
 subtitle: 'UC Berkeley, Spring 2026'
 ---
 

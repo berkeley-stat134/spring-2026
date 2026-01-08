@@ -1,0 +1,41 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: 'Stat 134'
+  description: 'Concepts of Probability'
+  keywords: []
+  authors: []
+  license:
+    # code: MIT
+    content: CC-BY-4.0
+  github: https://github.com/berkeley-stat134/spring-2026
+  # bibliography: []
+  jupyter:
+    lite: true
+  #thebe:
+  #  lite: true
+    #local:
+    #  url: http://localhost:8888
+    #  token: test-secret
+    #server: true
+    #  url: http://localhost:8888
+    #  token: test-secret
+  plugins:
+  - schedule.mjs
+  toc:
+  - file: index
+site:
+  template: book-theme
+  title: 'Stat 134'
+  options:
+    logo: 'stat_bear.png'
+  nav: []
+  actions:
+  - title: Ed
+    url: https://edstem.org
+  - title: DataHub
+    url: https://datahub.berkeley.edu
+  #- title: Gradescope
+  #  url: https://www.gradescope.com/courses/564792
+  domains:
+  - stat134.berkeley.edu
